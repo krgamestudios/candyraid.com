@@ -6,6 +6,8 @@ import GA from './utils/google_analytics.jsx';
 import PanelFooter from './panels/panel_footer.jsx';
 
 import PageHome from './pages/page_home.jsx';
+import PageDemo from './pages/page_demo.jsx';
+import PagePresskit from './pages/page_presskit.jsx';
 import PageNotFound from './pages/page_not_found.jsx';
 
 class App extends React.Component {
@@ -22,6 +24,8 @@ class App extends React.Component {
             { GA.init() && <GA.RouteTracker /> }
             <Switch>
               <Route exact path='/' component={PageHome} />
+              <Route exact path='/demo' component={PageDemo} />
+              <Route exact path='/presskit' component={PagePresskit} />
               <Route component={PageNotFound} />
             </Switch>
           </div>
