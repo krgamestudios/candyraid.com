@@ -18,7 +18,7 @@ class PageCandyRaid extends React.Component {
 
     return (
       <div style={flexStyle}>
-        <PanelUnity name='candyraid' width='960px' height='600px' />
+        <PanelUnity name='candyraidthefactory' width='960px' height='600px' />
       </div>
     );
   }
