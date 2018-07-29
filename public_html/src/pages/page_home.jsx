@@ -12,7 +12,7 @@ class PageHome extends React.Component {
   render() {
     return (
       <div className='page'>
-        <img src="/img/crtflogo.png" />
+        <img src="/img/crtflogo.png" style={{width: "80%"}} />
         <center>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/7DcsXKjTGeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </center>
