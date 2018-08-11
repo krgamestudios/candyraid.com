@@ -20,7 +20,7 @@ class PagePrototype extends React.Component {
       <div style={flexStyle}>
         <center>
           <p><strong>WARNING:</strong> This is a Candy Raid's PROTOTYPE. It does not reflect the current state of the game.</p>
-        <center>
+        </center>
         <PanelUnity name='prototype' width='960px' height='600px' />
       </div>
     );
