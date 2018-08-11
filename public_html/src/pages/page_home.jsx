@@ -12,7 +12,11 @@ class PageHome extends React.Component {
   render() {
     return (
       <div className='page'>
-        <img src="/img/crtflogo.png" />
+        <img src="/img/crtflogo.png" style={{width: "80%"}} />
+        <center>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7DcsXKjTGeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </center>
+        <hr />
         <div className="responsive">
           <img src="/img/crtfpromo.png" className="responsive" />
           <div style={{paddingLeft: '5px'}}>
@@ -32,10 +36,6 @@ class PageHome extends React.Component {
             </ul>
           </div>
         </div>
-        <hr />
-        <center>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/7DcsXKjTGeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </center>
         <hr />
         <PanelBrands />
       </div>
