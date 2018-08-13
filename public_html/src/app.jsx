@@ -8,6 +8,7 @@ import PanelFooter from './panels/panel_footer.jsx';
 import PageHome from './pages/page_home.jsx';
 import PageDemo from './pages/page_demo.jsx';
 import PagePrototype from './pages/page_prototype.jsx';
+import PageSugarCrash from './pages/page_sugar_crash.jsx';
 import PagePresskit from './pages/page_presskit.jsx';
 import PageNotFound from './pages/page_not_found.jsx';
 
@@ -27,6 +28,7 @@ class App extends React.Component {
               <Route exact path='/' component={PageHome} />
               <Route exact path='/demo' component={PageDemo} />
               <Route exact path='/prototype' component={PagePrototype} />
+              <Route exact path='/sugarcrash' component={PageSugarCrash} />
               <Route exact path='/presskit' component={PagePresskit} />
               <Route component={PageNotFound} />
             </Switch>

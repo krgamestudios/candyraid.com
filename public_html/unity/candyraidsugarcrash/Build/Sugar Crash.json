@@ -1,0 +1,13 @@
+{
+"companyName": "KR Game Studios",
+"productName": "Candy Raid Sugar Crash",
+"dataUrl": "Sugar Crash.data.unityweb",
+"asmCodeUrl": "Sugar Crash.asm.code.unityweb",
+"asmMemoryUrl": "Sugar Crash.asm.memory.unityweb",
+"asmFrameworkUrl": "Sugar Crash.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
