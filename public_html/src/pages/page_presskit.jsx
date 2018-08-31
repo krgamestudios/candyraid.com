@@ -28,7 +28,7 @@ class PageAbout extends React.Component {
         </p>
 
         <p>The prototype for Candy Raid was created in 3 days for Ludum Dare 41. Our team of two knew from the start that we had something special on our hands, so we rebuilt the game from the ground up, while retaining it's core elements.</p>
-        <p>After contracting Luis, we released the first demo, which can be played here:<br /><Link to="/candyraid">Candy Raid: The Factory Demo</Link></p>
+        <p>After contracting Luis, we released the first demo, which can be played here:<br /><Link to="/demo">Candy Raid: The Factory Demo</Link></p>
         <p>The store page can be found here:<br /><a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory Store Page</a></p>
 
         <hr />
