@@ -33,6 +33,7 @@ class PageHome extends React.Component {
               <li><a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory Store Page</a></li>
               <li><Link to="/demo">Candy Raid: The Factory Demo</Link></li>
               <li><a href="https://teespring.com/give-candy">Candy Raid Merchandise</a></li>
+              <li><a href="https://teespring.com/candyraidnewt">Candy Raid Merchandise 2</a></li>
               <li><Link to="/presskit">Press Kit</Link></li>
             </ul>
           </div>
