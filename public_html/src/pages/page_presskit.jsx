@@ -48,7 +48,7 @@ class PageAbout extends React.Component {
         <h2>Trailer</h2>
         <center>
           <div className="videoWrapper">
-            <iframe src="https://www.youtube.com/embed/7DcsXKjTGeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/7DcsXKjTGeE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
         </center>
 

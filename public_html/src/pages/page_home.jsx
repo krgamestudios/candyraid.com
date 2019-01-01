@@ -15,7 +15,7 @@ class PageHome extends React.Component {
         <img src="/img/crtflogo.png" style={{width: "80%", marginBottom: "5%"}} />
         <center>
           <div className="videoWrapper">
-            <iframe src="https://www.youtube.com/embed/7DcsXKjTGeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/7DcsXKjTGeE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
         </center>
         <hr />
