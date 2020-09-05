@@ -20,7 +20,8 @@ class PageAbout extends React.Component {
       <div className='page'>
         <h1>Candy Raid: The Factory Press Kit</h1>
         <h2>Synopsis</h2>
-        <p><strong>Release date:</strong> October 1st 2018</p>
+        <p><strong>Steam release date:</strong> October 1st 2018</p>
+        <p><strong>Switch release date:</strong> October 1st 2020</p>
         <p>
           <strong>Gameplay, Programming:</strong> Kayne Ruse<br />
           <strong>Art:</strong> Evan Hartshorn<br />
@@ -29,7 +30,7 @@ class PageAbout extends React.Component {
 
         <p>The prototype for Candy Raid was created in 3 days for Ludum Dare 41. Our team of two knew from the start that we had something special on our hands, so we rebuilt the game from the ground up, while retaining it's core elements.</p>
         <p>After contracting Luis, we released the first demo, which can be played here:<br /><Link to="/demo">Candy Raid: The Factory Demo</Link></p>
-        <p>The store page can be found here:<br /><a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory Store Page</a></p>
+        <p>The store page can be found here:<br /><a href="https://www.nintendo.com/games/detail/candy-raid-the-factory-switch/">Candy Raid: The Factory Switch Page</a><br /><a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory Steam Page</a></p>
 
         <hr />
 

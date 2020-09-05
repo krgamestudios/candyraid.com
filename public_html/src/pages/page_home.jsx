@@ -17,6 +17,9 @@ class PageHome extends React.Component {
           <div className="videoWrapper">
             <iframe src="https://www.youtube.com/embed/7DcsXKjTGeE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
+          <div>
+            <p><a href="https://www.nintendo.com/games/detail/candy-raid-the-factory-switch/">Switch</a> - <a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Steam</a></p>
+          </div>
         </center>
         <hr />
         <div className="responsive">
@@ -32,7 +35,8 @@ class PageHome extends React.Component {
             </ul>
             <p>We're aiming for an October release, but you can play the demo now!</p>
             <ul>
-              <li><a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory Store Page</a></li>
+              <li><a href="https://www.nintendo.com/games/detail/candy-raid-the-factory-switch/">Candy Raid: The Factory Switch Page</a></li>
+              <li><a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory Steam Page</a></li>
               <li><Link to="/demo">Candy Raid: The Factory Demo</Link></li>
               <li><a href="https://teespring.com/give-candy">Candy Raid Merchandise</a></li>
               <li><a href="https://teespring.com/candyraidnewt">Candy Raid Merchandise 2</a></li>
