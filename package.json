@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build",
+    "start": "npm run build:client",
     "dev": "npm run watch:client",
     "build:client": "webpack --env=production --config webpack.config.js",
     "watch:client": "webpack serve --env=development --config webpack.config.js",
