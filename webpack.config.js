@@ -17,7 +17,7 @@ module.exports = ({ production, analyzer }) => {
 			filename: '[name].[chunkhash].js',
 			sourceMapFilename: '[name].[chunkhash].js.map'
 		},
-		devtool: 'eval-source-map',
+		devtool: production ? 'source-map' : 'eval-source-map',
 		resolve: {
 			extensions: ['.js', '.jsx']
 		},
@@ -50,7 +50,7 @@ module.exports = ({ production, analyzer }) => {
 				},
 				{
 					test: /\.(png)$/,
-					use: 'url-loader'
+					use: 'file-loader'
 				}
 			]
 		},
