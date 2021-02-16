@@ -1,11 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import Brands from './brands';
 
 const Footer = () => {
 	const year = new Date().getFullYear();
 	return (
 		<footer>
-			<p>Copyright <a href='http://krgamestudios.com' style={{color: 'blue'}}>KR Game Studios</a> 2018-{year}</p>
+			<div className='break half' />
+			<p>Copyright <a href='http://krgamestudios.com'>KR Game Studios</a> 2018-{year}</p>
+			<p>For Business Inquiries, Contact <a href='mailto:krgamestudios@gmail.com'>krgamestudios@gmail.com</a></p>
+			<Brands />
 		</footer>
 	);
 };

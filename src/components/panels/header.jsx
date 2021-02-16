@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
 		<header>
-			<h1>Header Content</h1>
+			<Link to='/'><img src='/img/crtfheader.png' style={{objectFit: 'contain', maxWidth: '100%'}} /></Link>
 		</header>
 	);
 };

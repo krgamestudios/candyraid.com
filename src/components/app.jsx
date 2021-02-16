@@ -20,6 +20,7 @@ const App = props => {
 				<div className='central'>
 					<Switch>
 						<LazyRoute exact path='/' component={() => import('./pages/landing')} />
+						<LazyRoute path='/presskit' component={() => import('./pages/presskit')} />
 
 						<LazyRoute path='*' component={() => import('./pages/not-found')} />
 					</Switch>

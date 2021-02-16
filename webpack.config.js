@@ -48,6 +48,10 @@ module.exports = ({ production, analyzer }) => {
 					test: /\.(css)$/,
 					use: ['style-loader', 'css-loader']
 				},
+				{
+					test: /\.(png)$/,
+					use: 'url-loader'
+				}
 			]
 		},
 		plugins: [
