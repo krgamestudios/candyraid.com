@@ -286,3 +286,7 @@ img.presskit {
 .brands img.discord {
 	margin-bottom: -4px;
 }
+
+footer p {
+	color: white;
+}
