@@ -62,6 +62,10 @@ services:
 volumes:
   static_volume:
     driver: local
+
+networks:
+  traefik-network:
+    external: true
 `;
 
 	fs.writeFileSync('docker-compose.yml', ymlfile);
