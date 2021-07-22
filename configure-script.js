@@ -62,10 +62,6 @@ services:
 volumes:
   static_volume:
     driver: local
-
-networks:
-  server-network:
-    external: true
 `;
 
 	fs.writeFileSync('docker-compose.yml', ymlfile);
