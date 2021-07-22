@@ -57,7 +57,7 @@ services:
       - "traefik.http.routers.${appName}router.service=${appName}service@docker"
       - "traefik.http.services.${appName}service.loadbalancer.server.port=3000"
     networks:
-      - server-network
+      - traefik-network
 
 volumes:
   static_volume:
